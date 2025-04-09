@@ -10,6 +10,10 @@ COPY package*.json ./
 # Install the dependencies
 RUN npm install
 
+RUN npm install -g nodemon
+
+RUN npm install -g tsx
+
 # Copy the rest of the code into the container
 COPY . .
 
