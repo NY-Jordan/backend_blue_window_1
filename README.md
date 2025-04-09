@@ -24,12 +24,7 @@ Make sure your Docker containers are set up and running. To start the containers
 docker-compose up blue_window
 
 
-### 4. Generate Prisma Client 
-
-```bash
-make prisma-migrate
-
-### 5. Make Prisma Migrations 
+### 3. Make Prisma Migrations 
 
 ```bash
 make prisma-migrations
@@ -38,4 +33,9 @@ make prisma-migrations
 
 ```bash
 prisma-migrate
+
+### 6. Make Prisma seed 
+
+```bash
+make prisma-seed
 
